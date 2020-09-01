@@ -28,7 +28,7 @@ export class SentryComponentComponent implements OnInit {
   }
 
   throws_exception(): void {
-    throw ReferenceError("This is a different error");
+    throw RangeError("This is out of range");
   }
 
 }
